@@ -1,5 +1,9 @@
+.container{
+    margin-bottom: 100px;
+}
 .my_carousel{
     background-color: #feeae9;
+    border-radius: 10px;
 }
 .carousel-item{
     padding: 20px 40px;
@@ -11,4 +15,13 @@
     padding: 9px 25px;
     cursor: pointer;
     border-radius: 3px;
+}
+.cat1{
+    background-color:orange;
+}
+.cat2{
+    background-color: orchid;
+}
+.cat3{
+    background-color: blue;
 }
