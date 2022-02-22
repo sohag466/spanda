@@ -14,14 +14,52 @@
     border:none;
     padding: 9px 25px;
     cursor: pointer;
-    border-radius: 3px;
+    border-radius: 10px;
+}
+.cat1,.cat2,.cat3{
+    border-radius: 10px;
+}
+.categories img{
+    width: 120px;
 }
 .cat1{
     background-color:orange;
+    padding: 10px 30px;
+    color: #fff;
 }
 .cat2{
     background-color: orchid;
+    padding: 10px 30px;
+    color: #fff;
 }
 .cat3{
     background-color: blue;
+    padding: 10px 30px;
+    color: #fff;
+}
+.card{
+    border:none;
+    box-shadow: 5px 5px 10px lightgray;
+    cursor: pointer;
+    transition:box-shadow .5s ;
+}
+.card:hover{
+    box-shadow: 7px 7px 14px rgb(27, 27, 27);
+   
+}
+.bag_img{
+    width: 250px;
+}
+.card-footer{
+    border: none;
+}
+.contact-us{
+    height: 300px;
+}
+.contact-us h6{
+    color: gray;
+}
+footer{
+    text-align: center;
+    color: gray;
 }
